@@ -5,3 +5,7 @@ This script is Flask-based REST API that recommends suitable career paths for us
 It needs to be integrated with the system for it to work properly.
 It works through a simple `POST` request
 
+- Accepts 10 user test scores
+- Compares user vector with dataset (`Data_final.csv`)
+- Returns top 3 most similar career paths
+- Generates detailed explanations based on user strengths
